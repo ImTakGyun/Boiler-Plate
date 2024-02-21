@@ -1,0 +1,4 @@
+.env
+node_modules
+#만약 이미 add 를 한 상태이면 .gitignore가 정상작동이 어려움
+#이럴 때는 " git rm --cached 파일명 또는 폴더명 -r " 을 통해 캐시를 지워주자.
